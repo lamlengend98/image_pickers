@@ -13,8 +13,3 @@ plugins.each { name, path ->
     include ":$name"
     project(":$name").projectDir = pluginDirectory
 }
-sourceControl {
-    gitRepository("https://github.com/lamlengend98/picture-selector.git") {
-        producesModule("org.lamnt.picture_selector")
-    }
-}
