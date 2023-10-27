@@ -1,0 +1,55 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - Flutter (1.0.0)
+  - image_pickers (0.0.1):
+    - AFNetworking
+    - Flutter
+    - SDWebImage
+    - ZLPhotoBrowser (~> 4.4.5)
+  - SDWebImage (5.18.2):
+    - SDWebImage/Core (= 5.18.2)
+  - SDWebImage/Core (5.18.2)
+  - ZLPhotoBrowser (4.4.5):
+    - ZLPhotoBrowser/Core (= 4.4.5)
+  - ZLPhotoBrowser/Core (4.4.5)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - image_pickers (from `.symlinks/plugins/image_pickers/ios`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AFNetworking
+    - SDWebImage
+    - ZLPhotoBrowser
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  image_pickers:
+    :path: ".symlinks/plugins/image_pickers/ios"
+
+SPEC CHECKSUMS:
+  AFNetworking: 3bd23d814e976cd148d7d44c3ab78017b744cd58
+  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+  image_pickers: c198bbd339bc412a418cda3569db9a94a107661f
+  SDWebImage: c0de394d7cf7f9838aed1fd6bb6037654a4572e4
+  ZLPhotoBrowser: c517bd5ca32909ba67b02b99a558ab90756a8448
+
+PODFILE CHECKSUM: 28521a0b247f1b8ef84b03b3501b52d21803c574
+
+COCOAPODS: 1.11.3
