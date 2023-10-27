@@ -57,7 +57,7 @@ flutter {
 dependencies {
     testImplementation 'junit:junit:4.12'
 
-    implementation 'org.lamnt.picture_selector'
+    implementation 'com.github.lamlengend98.picture-selector:main-SNAPSHOT'
     androidTestImplementation 'androidx.test:runner:1.1.0'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.0'
 }

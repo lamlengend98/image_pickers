@@ -1,6 +1,1 @@
 rootProject.name = 'image_pickers'
-sourceControl {
-    gitRepository("https://github.com/lamlengend98/picture-selector.git") {
-        producesModule("org.lamnt.picture_selector")
-    }
-}
